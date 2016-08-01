@@ -1,0 +1,16 @@
+{
+  "name": "slackbot_demo_hod",
+  "version": "1.0.0",
+  "description": "Basic Haven OnDemand integration to slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Nappy",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "dotenv": "^2.0.0",
+    "havenondemand": "^1.2.3"
+  }
+}
