@@ -4,7 +4,7 @@ A simple example to show how to incorporate Haven OnDemand into a Slackbot.
 ## What this does
 Prompt the Slackbot in the slack channel with a sentence and it will analyze the sentiment of it.
 
-![workflow](./workflow.png)
+![workflow](./img/workflow.png)
 
 ## Technology used
 * [Haven OnDemand](http://havenondemand.com/)
