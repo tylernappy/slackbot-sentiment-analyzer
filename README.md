@@ -17,7 +17,12 @@ cd slackbot-sentiment-analyzer
 ```
 npm install
 ```
-Then, add your Slackbot token and Haven OnDemand API key to the `index.js` file.
+Open up the `index.js` file and replace where it says `process.env.HOD_APIKEY` with your Haven OnDemand API key (found [here](https://www.havenondemand.com/account/api-keys.html)) and `process.env.SLACK_TOKEN` with your Slack token (sign up [here](https://my.slack.com/services/new/bot) to find it and to also name and configure the bot on Slack)
+
+Run to start:
+```
+node index.js
+```
 
 ## Technology used
 * [Haven OnDemand](http://havenondemand.com/)
